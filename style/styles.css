@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font family:inter  */
+body{
+    max-width: 1140px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid yellow;
+}
+.header-first{
+    
+    margin-top: 100px;
+    /* border: 2px solid tomato; */
+    
+}
+.header-primary{
+    color: rgb(255, 255, 255);
+font-size: 4.25rem;
+font-weight: 900;
+width: 500px;
+height: 440px;
+/* border: 2px solid rebeccapurple; */
+
+}
+.maima{
+    font-weight: 400;
+    font-family : Miama , sans-serif;
+font-style : italic
+}
+.huge{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);;
+}
+.btn2{
+    width: 200px;
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 600;
+height:50px ;
+/* padding: 12px 35px 12px 35px; */
+}
+
+.download-app{
+    width: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    font-weight: 600;
+padding: 12px 35px 12px 35px;
+font-size: 1rem;
+color:
+rgb(255, 255, 255);
+}
+.first-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .3rem;
+}
+.workout{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+background: rgba(48, 48, 48, 0.54);
+width: 185px;
+height: 92px;
+margin-top: 30px;
+}
+.first-number{
+    color: rgb(255, 255, 255);
+font-size: 40px;
+font-weight: 900;
+}
+.free-work{
+    font-size: .7rem;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 1rem 2.5rem;
+   
+    position: relative;
+    left: 250px;
+    top: 30px;
+    width: 105px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    /* border: 2px solid tomato; */
+}
+.cercel{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+   background-color: rgb(230, 83, 60);
+}
+.second-number{
+    font-size:1.3rem ;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+.video-tutorial{
+    font-size: .9rem;
+    font-weight: 400;
+    color:rgba(239, 237, 232, 0.65) ;
+}
+.tutorial{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    gap: .5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    padding-left: .6rem;
+}
+.header-2nd{
+    display: flex;
+    flex-direction: column;
+    gap: 325px;
+    margin-top: 140px;
+    /* border: 2px solid tomato; */
+    background-image: url('../images/Images\ 2.png');
+    width: 350px;
+    height: 600px;
+}
+
+
+
+
+
+
+/* strating second part */
+.section1{
+    /* border: 2px solid tomato; */
+    width: 1000px;
+    height: 450px;
+    margin-left: 125px;
+}
+.habit{
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    width: 476px;
+    height: 10px;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.describ{
+    font-size: .7rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 670px;
+    height: 10px;
+    margin-top: 0px;
+    justify-self: center;
+    text-align: center;
+    /* border: 2px solid tomato; */
+}
+.change-habit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* shared card coad */
+.card-img{
+    border-radius: 100%;
+    margin-left: 22px;
+}
+.card-name{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+height: 4px;
+
+}
+.card-title{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+height: 35px;
+width: 200px;
+margin-left: 10px;
+}
+.cards{
+    width: 230px;
+    border: 2px solid grey;
+    /* margin-left: 20px; */
+}
+.card{
+    display: flex;
+    margin-top: 58px;
+    margin-left: 25px;
+}
+
+/* starting third part */
+.section2{
+    width: 1060px;
+    height: 370px;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+}
