@@ -19,6 +19,7 @@
         font-size: 1rem;
         font-weight: 600;
         border-radius: 2.5rem;
+        border-style: none;
         background: rgb(230, 83, 60);
     }
     .para1{
@@ -39,6 +40,9 @@
         align-items: center;
         /* justify-content: space-evenly; */
         /* width: 450 px; */
+    } 
+    .hide{
+        /* display: none; */
     }
    </style>
 </head>
@@ -75,7 +79,7 @@
         </div>
         </div>
     </header>
-    <main>
+    <main class="hide">
         <section class="section1">
                 <div class="change-habit">
                     <p class="habit">Change Your Habits</p>
@@ -109,12 +113,130 @@
         </section>
         <section class="section2">
             <div class="text-container">
-                <p>Run an Extra Mile Easily</p>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-                <button>Join Now</button>
+                <p class="text-name">Run an Extra <br> Mile Easily</p>
+                <p class="text-title">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <button class="btn3">Join Now</button>
+            </div>
+            <img class="ran-img" src="./images/run.jpg" alt="">
+        </section>
+        <section class="section3">
+            <p class="rest-eat">Rest and Eating food</p>
+            <div class="left-right">
+                <div class="left">
+                    <p class="rest-name">After ran. we need to Rest.</p>
+                    <p class="rest-title">To rest means to relax into something and let it support you. Rest yourself
+                         on the couch for a while, if you're tired. The word rest comes from the Germ
+                         an rasta meaning "league of miles." If you walked that far, you'd need a good
+                          rest too.</p>
+                    <img class="rest-img" src="./images/istockphoto-502937834-1024x1024.jpg" alt="">
+                    <button id="btn-mix" class="btn3 ">Just Relux</button>
+                </div>
+                <div class="right">
+                    <p class="rest-name">After rest. we need to eating food.</p>
+                    <p class="rest-title">Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+                    <img class="rest-img" src="./images/eating food.jpg" alt="">
+                    <button id="btn-mix" class="btn3 ">Eat slowly</button>
+                </div>
+            </div>
+        </section>
+        <section class="semi-section">
+            <p class="bmi">BMI Calculator</p>
+            <p class="bmi-title">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+        </section>
+        <section class="section4">
+            <div class="">
+                <h1 class="chart-name">BMI Calculator Chart</h1>
+            
+                <table>
+                    <thead>
+                        <tr>
+                           <td>BMI </td>
+                           <td>Weight Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+                <div class="calculat">
+                    <h1 class="calculat-name">Calculate your BMI</h1>
+                    <p class="calculat-title">We believe fitness should be accessible to everyone, everywhe
+                        re, regardless <br> of income or access to a gym. </p>
+                        <form>
+                            <label for="sellect-activity">
+                                <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg"> <br>
+                            <input type="text" placeholder="Age">
+                                <select name="" id="select1">
+                                    <option value="sex">Sex</option> <br>
+                                    </select>
+                                    <select name="" id="select2">
+                                    <option value="Select an activity factor">Select an activity factor</option>
+                                </select>
+                                <br>
+                            <button id="btn4">Calculate</button>
+                            </label>
+                        </form>
+                          
+                        
+                </div>
+            
+        </section>
+        <section class="section5">
+            <p id="habit" class="habit">Meet Our Team</p>
+            <p id="describ" class="describ">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+            <div class="trainers">
+                <img class="trainer-img" src="./images/trainer1.png" alt="">
+                <img class="trainer-img" src="./images/trainer2.png" alt="">
+                <img class="trainer-img" src="./images/trainer3.png" alt="">
+                <img class="trainer-img" src="./images/trainer4.png" alt="">
+                <img class="trainer-img" src="./images/trainer5.png" alt="">
+                <img class="trainer-img" src="./images/trainer6.png" alt="">
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+       <div class="foot-all"> 
+        <div class="foot1">
+        <p class="foot1-name"><i>Fitness</i></p>
+        <p class="foot1-title">We believe fitness should be accessible to everyone, everywhere, regardless of income o
+            r access to a gym. With hundreds of professional workouts.</p>
+    </div>
+    <div class="foot2">
+        <h2 class="foot-same-name">Get Started</h2>
+        <p class="foot-same-title">Service </p>
+        <p class="foot-same-title">Contact</p>
+        <p class="foot-same-title">Affiliate Program</p>
+        
+        <p class="foot-same-title">About Us</p>
+    </div>
+    <div class="foot2">
+        <h2 class="foot-same-name">Get Started</h2>
+        <p class="foot-same-title">Fitness</p>
+        <p class="foot-same-title">Platform</p>
+        <p class="foot-same-title">Workout Libary</p>
+        <p class="foot-same-title">App Design</p>
+    </div>
+</div>
+        <h1 class="line-only"></h1>
+        <h2 class="the-end">All right reserved @Fitness 2024</h2>
+    </footer>
 </body>
 </html>
