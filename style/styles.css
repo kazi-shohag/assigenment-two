@@ -4,7 +4,7 @@
 body{
     max-width: 1140px;
     background-color: rgb(0, 0, 0);
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 .header-first{
     
@@ -17,16 +17,25 @@ body{
 font-size: 4.25rem;
 font-weight: 900;
 width: 500px;
-height: 440px;
+/* height: 440px; */
 /* border: 2px solid rebeccapurple; */
 
 }
+#span0{
+    height: 30px;
+}
+#span1{
+    /* border: 1px solid tan; */
+    height: 150px;
+    padding-top: 0px;
+ }
 .maima{
     font-weight: 400;
     font-family : Miama , sans-serif;
 font-style : italic
 }
 .huge{
+    margin-top: 30px;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);;
 }
@@ -57,6 +66,7 @@ rgb(255, 255, 255);
     flex-direction: row;
     align-items: center;
     gap: .3rem;
+    margin-top: 30px;
 }
 .workout{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -81,8 +91,8 @@ font-weight: 900;
     padding: 1rem 2.5rem;
    
     position: relative;
-    left: 250px;
-    top: 30px;
+    left: 230px;
+    top: 100px;
     width: 105px;
 }
 .navigation{
@@ -120,12 +130,12 @@ font-weight: 900;
 .header-2nd{
     display: flex;
     flex-direction: column;
-    gap: 325px;
-    margin-top: 140px;
+    gap: 300px;
+    margin-top: 30px;
     /* border: 2px solid tomato; */
     background-image: url('../images/Images\ 2.png');
     width: 350px;
-    height: 600px;
+    height: 550px;
 }
 
 
@@ -139,6 +149,7 @@ font-weight: 900;
     width: 1000px;
     height: 450px;
     margin-left: 125px;
+    margin-top: 50px;
 }
 .habit{
     font-size: 2.6rem;
@@ -208,7 +219,7 @@ margin-left: 10px;
     height: 370px;
     border-radius: 18px;
 background: rgb(34, 34, 34);
-margin-left: 100px;
+margin-left: 60px;
 }
 .text-name{
     height: 80px;
@@ -241,11 +252,39 @@ margin-left: 54px;
 border-style: none;
 }
 .ran-img{
-    width: 350px;
-    height: 300px;
-   margin-top: 35px;
-   /* margin-right: 3px; */
+    width: 22rem;
+    height: 20.7rem;
+   margin-top: 20px;
+  object-fit: none;
+ object-position: 67% 34%;
    margin-left: 150px;
+   border-radius: 15px;
+}
+@media screen and (max-width:576px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .text-name{
+width: 70%;
+    }
+    .text-title{
+width: 50%;
+    }
+    .btn3{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .ran-img{
+        width: 80%;
+       margin: auto;
+       border-radius: 15px;
+       object-fit: cover;
+    }
 }
 
 
@@ -254,7 +293,6 @@ border-style: none;
 .section3{
     width: 1100px;
     background-color: darkslategrey;
-    /* display: flex; */
     margin-left: 20px;
 
 }
@@ -296,6 +334,31 @@ border-style: none;
     margin-left: 100px;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 576px) {
+    .section3{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .left-right{
+        display: flex;
+        flex-direction: column;
+    }
+    #btn-mix{
+        margin-left: 30px;
+    }
+    .rest-name{
+        margin-left: 30px;
+    }
+    .rest-title{
+        margin-left: 30px;
+    }
+    .rest-img{
+        margin-left: 30px;
+    }
+    .right{
+        margin-left: 0px;
+    }
+}
 
 
 /* start semi section  */
@@ -317,7 +380,15 @@ border-style: none;
     font-weight: 400;
 
 }
-
+@media screen and (max-width: 576px) {
+    .semi-section{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .bmi-title{
+        width: 50%;
+    }
+}
 
 /* section four starting  */
 .section4{
@@ -422,6 +493,45 @@ margin-top: 30px;
 #select1{
     width: 280px;
 }
+@media screen and (max-width: 576px) {
+    
+    .section4{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+    table{
+        margin-left: 30px;
+    margin-top: 40px;
+    }
+    input{
+        width: 35%;
+    }
+    #select1{
+        width: 38%;
+    }
+    #select2{
+        width: 76%;
+    }
+    .calculat{
+        margin-left: 30px;
+    }
+    .calculat-name{
+        margin-top: 0px;
+    }
+    .calculat-title{
+        width: 65%;
+    }
+    #btn4{
+        margin-bottom: 50px;
+    }
+    .chart-name{
+        margin-top: 0px;
+        margin-left: 30px;
+}
+ }
 
 /* trainer part strating  */
 #habit{
@@ -437,8 +547,6 @@ margin-top: 30px;
 .trainer-img{
     width: 290px;
     height: 270px;
-    /* margin-top: 20px; */
-    /* margin-left: 20px; */
     border-radius: 15px;
    
   
@@ -453,6 +561,34 @@ margin-top: 30px;
     grid-template-columns:repeat(3, 1fr);
    padding-top: 30px;
    padding-left: 25px;
+}
+@media screen and (max-width: 576px) {
+    
+    
+    #habit{
+        width: 100%;
+
+    }
+    #describ{
+        width: 40%;
+        margin: auto;
+    }
+    .trainers{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        margin-top: 70px;
+        padding-right: 30px;
+    }
+    .trainer-img{
+        height: 100%;
+        width: 100%;
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+    }
 }
 
 
@@ -516,3 +652,41 @@ height: 12px;
 font-size: 20px;
 font-weight: 400;
 }
+
+ @media screen and (max-width: 576px) {
+    .foot-all{
+        /* background-color: aquamarine; */
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+       align-items: start;
+    }
+    .foot1{
+        padding-bottom: 0px;
+    }
+    .foot2{
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .foot1-name{
+        margin-left: 0px;
+    }
+    .foot1-title{
+        margin-left: 0px;
+        width: 260px;
+    }
+    .foot-same-name{
+        margin-bottom: 30px ;
+    }
+    .foot-same-title{
+        margin-top: 0px;
+    }
+    .line-only{
+max-width: 85%;
+margin-left: 30px;
+    }
+    .the-end{
+      text-align: start;
+      margin-left: 30px;
+    }
+ }   
